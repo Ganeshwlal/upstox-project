@@ -1,0 +1,80 @@
+<div class="container-fluid">
+
+    <div id="login-head" class="container">
+        <!-- <h3>upstox</h3> -->
+        <a href="./upstox.html"><img src="https://assets.upstox.com/common/images/upstox-logo-primary.svg" alt=""></a>
+        
+    </div>
+
+    <div class="row">
+        
+        <div id="reg-form" class="container col-5">
+            <form action="">
+                <h2>OPEN DEMAT ACCOUNT</h2>
+                <h1>One account. Many options.</h1>
+                <div class="inp-div">
+                    <label for="">Name</label>
+                    <br>
+                    <input [(ngModel)]="fname" name="fname" id="fname" class="inp-name" type="text" placeholder="First Name">
+                    <input [(ngModel)]="lname" name="lname" id="lname" class="inp-name" type="text" placeholder="Last Name">
+                    <div class="err-msg">
+                        <!-- err msg -->
+                    </div>
+                </div>
+                <div class="inp-div">
+                    <label for="">Mobile</label>
+                    <br>
+                    <input [(ngModel)]="number" name="number" class="details" type="text" placeholder="Mobile">
+                    <div class="err-msg">
+                        <!-- err msg -->
+                    </div>
+                </div>
+                <div class="inp-div">
+                    <label for="">PAN No:</label>
+                    <br>
+                    <input [(ngModel)]="pan" name="pan" class="details" type="text" placeholder="PAN No:">
+                    <div class="err-msg">
+                        <!-- err msg -->
+                    </div>
+                </div>
+                <div class="inp-div">
+                    <label for="">Password</label>
+                    <br>
+                    <input [(ngModel)]="password" name="email" class="details " type="text" placeholder="Password">
+                    <div class="err-msg">
+                        <!-- err msg -->
+                    </div>
+                </div>
+                <br>
+
+                <div id="reg-btn">
+                    <button type="button" class="btn btn-primary" (click)="register()">Register</button>
+                </div>
+            </form>
+
+          
+        </div>
+
+        <div id="reg-form-right" class="container col-5">
+            <img src="https://upstox.com/open-demat-account/assets/images/banner-image.png" alt="">
+        </div>
+
+    </div>
+
+    <br><br><br><br><br>
+
+    <div class="container-fluid">
+
+        <div>
+            <h1>Why choose Upstox?</h1>
+        </div>
+        <div>
+            <h4>Single account for all your investing and trading needs</h4>
+        </div>
+
+        <div>
+            <img src="" alt="">
+        </div>
+
+    </div>
+</div>

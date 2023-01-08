@@ -1,0 +1,66 @@
+<div id="main-div" class="container-fluid">
+    <div id="login-head" class="container">
+        <!-- <h3>upstox</h3> -->
+        <a href="./upstox.html">  <img src="https://assets.upstox.com/common/images/upstox-logo-primary.svg" alt=""></a>
+      
+    </div>
+
+    <div class="container-fluid row">
+        <div class="col-4"></div>
+        <div class="col-4" id="login-form">
+            <div class="help">
+                <a href="./upstox.html"><i class="fa-solid fa-circle-question"></i></a>
+
+            </div>
+            <div id="box-head">
+                <h3>Let’s get started</h3>
+            </div>
+            <div>
+                <p>We’ll send you a one-time password (OTP) to verify your mobile number.</p>
+            </div>
+            <div id="input-log" class="input-log">
+                <form action="">
+                    <label for="">Enter mobile number</label>
+                    <br>
+                   
+                        <span id="code">+91</span>
+                    
+                    
+                    <!-- <label id="code" for="number">+91</label> -->
+
+                    <!-- <div id="number-div"> -->
+                        <input [(ngModel)]="number" name="number" id="number" maxlength="10" type="number"  placeholder="Mobile Number">
+                    <!-- </div> -->
+                    
+                </form>
+            </div>
+            <div class="input-err">
+                <!-- error msg -->
+            </div>
+
+            <div class="input-log">
+                <form action="">
+                    <label for="">Password</label>
+                    <br>
+                    <input [(ngModel)]="pswd" name="pswd" type="text"  placeholder="Password">
+                </form>
+            </div>
+            <div class="input-err">
+                <!-- error msg -->
+            </div>
+            <div class="login-btn">
+                <button type="button" class="btn btn-primary" (click)="login()">Login</button>
+            </div>
+
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <div class="row" id="footer">
+        <div class="container col-4">
+            <p>RKSV Securities India Pvt. Ltd: SEBI Regn No. INZ000185137 | NSE TM Code: 13942 | BSE TM Code: 6155 |
+                CDSL: IN-DP-118-2015 | RKSV Commodities India Pvt. Ltd.: SEBI Regn. No. INZ000015837 | MCX TM Code:
+                46510</p>
+        </div>
+    </div>
+</div>

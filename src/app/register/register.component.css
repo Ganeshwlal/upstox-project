@@ -1,0 +1,46 @@
+#login-head{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+#login-head img{
+    width: 100px;
+    margin-top: 20px;
+
+    
+}
+
+#reg-form{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+}
+#reg-form-right img{
+    width: 500px;
+    /* height: 500px; */
+}
+.details{
+    width: 100%;
+    /* height: 40px; */
+    border: none;
+    /* border: 2px solid black; */
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.inp-div label{
+    font-weight: bolder;
+}
+.inp-name{
+    /* width: 50%; */
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.err-msg{
+    height: 30px;
+}
+
+.inp-div #lname{
+    margin-left: 20px;
+}
